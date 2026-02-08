@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cont1
-          image: 477088859292.dkr.ecr.us-east-1.amazonaws.com/cicd:9-35986a8
+          image: 477088859292.dkr.ecr.us-east-1.amazonaws.com/cicd:10-35986a8
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
