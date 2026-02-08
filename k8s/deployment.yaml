@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: lwm-alpha
+  name: cicd
   labels:
-    app: lwm-alpha
+    app: cicd
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: lwm-alpha
+      app: cicd
   template:
     metadata:
       labels:
-        app: lwm-alpha
+        app: cicd
     spec:
       containers:
         - name: cont1
